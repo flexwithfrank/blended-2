@@ -1,31 +1,11 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #2c2d30;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  /* align-items: center;
+  justify-content: center; */
+  color: #000;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +16,402 @@
     transform: rotate(360deg);
   }
 }
+
+/* fonts */
+
+@font-face {
+  font-family: "cotter-bold";
+  src: local("cotter-bold"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Cotter-bold.otf") format("opentype"),
+    url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Cotter-bold-web.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "cotter-med";
+  src: local("cotter-med"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/cotter-medium.otf") format("opentype"),
+    url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/cotter-medium.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "candace";
+  src: url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/candace.ttf") format("truetype");
+  src: url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/candice-boldexpanded-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "neu";
+  src: local("neu"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Neubahn.ttf") format("truetype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Neubahn.woff") format("woff"),
+    url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Neubahn.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "happy";
+  src: local("happy"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/BoldenVan.ttf") format("truetype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/BoldenVan.woff") format("woff");
+}
+@font-face {
+  font-family: "vaulto";
+  src: local("vaulto"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Vaulto-ExtraBold.otf") format("opentype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Vaulto-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kilo";
+  src: local("kilo"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Kilograph.otf") format("opentype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Kilograph.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "under-rated";
+  src: local("under-rated"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/UNDERRATED-UltraBold Personal Use.otf") format("opentype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/underrated-ultrabold_personal_use-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "noir";
+  src: local("noir"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/NoirPro-Bold.otf") format("opentype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/NoirPro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "grate";
+  src: local("grate"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/GratelosDisplay.otf") format("opentype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/gratelosdisplay-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "machina";
+  src: local("machina"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/PPNeueMachina-PlainRegular.otf") format("opentype"),
+  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/ppneuemachina-plainregular-webfont.woff") format("woff");
+}
+
+.machina{
+  font-family: 'machina';
+  margin: 0;
+  font-weight: 800;
+}
+
+.grate{
+  font-family: "grate";
+  margin: 0;
+}
+
+.noir{
+  font-family: 'noir';
+  margin: 0;
+}
+
+.under-rated{
+  font-family: "under-rated";
+  margin: 0;
+}
+
+.kilo{
+  font-family: 'kilo';
+  margin: 0;
+}
+
+.candace{
+  font-family: 'candace';
+  margin: 0;
+}
+
+.vaulto{
+  font-family: 'vaulto';
+  margin: 0;
+}
+
+
+.cotter{
+  font-family: 'cotter-bold';
+  margin: 0;
+}
+.cotter-med{
+  font-family: 'cotter-med';
+   margin: 0;
+}
+
+.neu{
+  font-family: 'neu';
+  margin: 0;
+}
+
+.happy{
+  font-family: 'happy';
+  margin: 0;
+}
+
+/* CSS */
+.button-19 {
+  align-items: center;
+  background-color: #000;
+  border: 0;
+  border-radius: 0 5px 5px 0 ;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline;
+  font-family: 'machina';
+  font-size: 1rem;
+  justify-content: center;
+  padding: 1rem 0.7rem 0.60rem 0.7rem;
+  font-size: 1rem;
+  overflow: hidden;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-19:hover,
+.button-19:focus { 
+  background-color: grey;
+  color: #ffffff;
+}
+
+.button-19:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-19:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+#slide {
+    position: absolute;
+    left: 0;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #f5f5f5;
+  background-color: #f0f0f6;
+  color: #000;
+  border-radius: 10px 0 0 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+   align-items: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  input[type="email"],
+  input[type="text"],
+  input[type="number"] {
+    background-color: var(--gray-800);
+    border-color: var(--gray-700);
+    color: white;
+  }
+
+  input[type="email"]::placeholder,
+  input[type="text"]::placeholder,
+  input[type="number"]::placeholder,
+  select,
+  textarea {
+    color: var(--gray-500);
+  }
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 300px;
+}
+
+/* marquee text effect */
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 206px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.track > h1 {
+  font-size: 3rem;
+  font-family: machina;
+  /* -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #f4955c; */
+}
+
+.hidAni {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.overlay-classes {
+    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/ride45-color.png");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity .35s ease-in-out;
+  }
+
+  .overlay-classes-two {
+    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/shred-color.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transition: opacity .35s ease-in-out;
+    z-index:2;
+    border-radius: 10px;
+  }
+
+  .overlay-classes-three {
+    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/strength-color.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transition: opacity .35s ease-in-out;
+    z-index:2;
+    border-radius: 10px;
+  }
+
+   .overlay-classes-four {
+    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/superfood-color.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transition: opacity .35s ease-in-out;
+    z-index:2;
+    border-radius: 10px;
+  }
+
+  .overlay-classes-five {
+    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/wellness-color.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    opacity: 0;
+    transition: opacity .35s ease-in-out;
+    border-radius: 10px;
+  }
+
+   .overlay-classes-six {
+    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/cryo-color.png");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    opacity: 0;
+    transition: opacity .35s ease-in-out;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    border-radius: 10px;
+  }
+
+
+
+  Button {
+    font-family: 'machina';
+  }
+
