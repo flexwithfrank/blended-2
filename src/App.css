@@ -21,69 +21,69 @@
 
 @font-face {
   font-family: "cotter-bold";
-  src: local("cotter-bold"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Cotter-bold.otf") format("opentype"),
-    url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Cotter-bold-web.woff") format("woff");
+  src: local("cotter-bold"), url("../public/assets/fonts/Cotter-bold.otf") format("opentype"),
+    url("../public/assets/fonts/Cotter-bold-web.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "cotter-med";
-  src: local("cotter-med"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/cotter-medium.otf") format("opentype"),
+  src: local("cotter-med"), url("../public/assets/fonts/cotter-medium.otf") format("opentype"),
     url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/cotter-medium.woff") format("woff");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "candace";
-  src: url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/candace.ttf") format("truetype");
-  src: url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/candice-boldexpanded-webfont.woff") format("woff");
+  src: url("../public/assets/fonts/candace.ttf") format("truetype");
+  src: url("../public/assets/fonts/candice-boldexpanded-webfont.woff") format("woff");
 }
 
 @font-face {
   font-family: "neu";
-  src: local("neu"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Neubahn.ttf") format("truetype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Neubahn.woff") format("woff"),
-    url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Neubahn.woff2") format("woff2");
+  src: local("neu"), url("../public/assets/fonts/Neubahn.ttf") format("truetype"),
+  url("../public/assets/fonts/Neubahn.woff") format("woff"),
+    url("../public/assets/fonts/Neubahn.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "happy";
-  src: local("happy"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/BoldenVan.ttf") format("truetype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/BoldenVan.woff") format("woff");
+  src: local("happy"), url("../public/assets/fonts/BoldenVan.ttf") format("truetype"),
+  url("../public/assets/fonts/BoldenVan.woff") format("woff");
 }
 @font-face {
   font-family: "vaulto";
-  src: local("vaulto"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Vaulto-ExtraBold.otf") format("opentype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Vaulto-ExtraBold.woff") format("woff");
+  src: local("vaulto"), url("../public/assets/fonts/Vaulto-ExtraBold.otf") format("opentype"),
+  url("../public/assets/fonts/Vaulto-ExtraBold.woff") format("woff");
 }
 
 @font-face {
   font-family: "kilo";
-  src: local("kilo"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Kilograph.otf") format("opentype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/Kilograph.woff2") format("woff2");
+  src: local("kilo"), url("../public/assets/fonts/Kilograph.otf") format("opentype"),
+  url("../public/assets/fonts/Kilograph.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "under-rated";
-  src: local("under-rated"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/UNDERRATED-UltraBold Personal Use.otf") format("opentype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/underrated-ultrabold_personal_use-webfont.woff2") format("woff2");
+  src: local("under-rated"), url("../public/assets/fonts/UNDERRATED-UltraBold Personal Use.otf") format("opentype"),
+  url("../public/assets/fonts/underrated-ultrabold_personal_use-webfont.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "noir";
-  src: local("noir"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/NoirPro-Bold.otf") format("opentype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/NoirPro-Bold.woff") format("woff");
+  src: local("noir"), url("../public/assets/fonts/NoirPro-Bold.otf") format("opentype"),
+  url("../public/assets/fonts/NoirPro-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "grate";
-  src: local("grate"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/GratelosDisplay.otf") format("opentype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/gratelosdisplay-webfont.woff") format("woff");
+  src: local("grate"), url("../public/assets/fonts/GratelosDisplay.otf") format("opentype"),
+  url("../public/assets/fonts/gratelosdisplay-webfont.woff") format("woff");
 }
 
 @font-face {
   font-family: "machina";
-  src: local("machina"), url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/PPNeueMachina-PlainRegular.otf") format("opentype"),
-  url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/ppneuemachina-plainregular-webfont.woff") format("woff");
+  src: local("machina"), url("../public/assets/fonts/PPNeueMachina-PlainRegular.otf") format("opentype"),
+  url("../public/assets/fonts/ppneuemachina-plainregular-webfont.woff") format("woff");
 }
 
 .machina{
