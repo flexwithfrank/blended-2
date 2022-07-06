@@ -11,7 +11,7 @@ export const MOCKDATA = [
     icon: User,
     title: 'Privacy focused',
     description:
-      'People say it can run at the same speed as lightning striking, Its icy body is so cold, it will not melt even if it is immersed in magma',
+      'Ppeople say it can run at the same speed as lightning striking, Its icy body is so cold, it will not melt even if it is immersed in magma',
   },
   {
     icon: Cookie,
