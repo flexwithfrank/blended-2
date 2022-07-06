@@ -28,7 +28,7 @@
 @font-face {
   font-family: "cotter-med";
   src: local("cotter-med"), url("../public/assets/fonts/cotter-medium.otf") format("opentype"),
-    url("/Users/rodriguezmedia/Desktop/blended/public/assets/fonts/cotter-medium.woff") format("woff");
+    url("../public/assets/fonts/cotter-medium.woff") format("woff");
   font-weight: normal;
 }
 
