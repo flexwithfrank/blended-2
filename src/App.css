@@ -327,7 +327,7 @@ select {
 }
 
 .overlay-classes {
-    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/ride45-color.png");
+    background-image: url("/public/assets/images/ride45-color.png");
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
@@ -341,7 +341,7 @@ select {
   }
 
   .overlay-classes-two {
-    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/shred-color.jpg");
+    background-image: url("/public/assets/images/shred-color.jpg");
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
@@ -355,7 +355,7 @@ select {
   }
 
   .overlay-classes-three {
-    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/strength-color.jpg");
+    background-image: url("/public/assets/images/strength-color.jpg");
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
@@ -369,7 +369,7 @@ select {
   }
 
    .overlay-classes-four {
-    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/superfood-color.jpg");
+    background-image: url("/public/assets/images/superfood-color.jpg");
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
@@ -383,7 +383,7 @@ select {
   }
 
   .overlay-classes-five {
-    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/wellness-color.jpg");
+    background-image: url("/public/assets/images/wellness-color.jpg");
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
@@ -397,7 +397,7 @@ select {
   }
 
    .overlay-classes-six {
-    background-image: url("/Users/rodriguezmedia/Desktop/blended/public/assets/images/cryo-color.png");
+    background-image: url("/public/assets/images/cryo-color.png");
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
