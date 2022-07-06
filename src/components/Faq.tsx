@@ -71,7 +71,7 @@ export function Faq() {
      
       <Typography fontSize={24}>
             <Box py={3} style={{color: 'black'}} 
-            className='machina'>Frequently asked things.
+            className='machina'>Frequently asked things!
             </Box>
           </Typography>
     <Accordion initialItem={-1} iconPosition="right">
