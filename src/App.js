@@ -83,7 +83,7 @@ function App() {
         <Box mt={15}>
          <GiantTextRow
         dir='row-reverse'
-        src='https://storage.googleapis.com/msgsndr/M4LpH9VZkgr3fIOnQTtk/media/6320f2225181604d13d7cd3a.png'
+        src='https://storage.googleapis.com/msgsndr/M4LpH9VZkgr3fIOnQTtk/media/6320f9106eefac4fe9a7b933.png'
         txt1='SWEAT ✚ DREAM ＝'
         txt2='MOVEMENT.' />
         </Box>

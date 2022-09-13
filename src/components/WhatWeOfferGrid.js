@@ -5,12 +5,9 @@ import { Box } from '@mui/material';
 import { Container } from '@mui/material'
 import { Button } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Stack } from '@mui/material';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
-import MdPhone from '@mui/icons-material/Phone';
-import { Chip } from '@mui/material';
+
 
 const gridStyle = {
     position: 'relative'
