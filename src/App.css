@@ -83,7 +83,7 @@
 
 @font-face {
   font-family: "machina";
-  src: local("machina"), url("../public/assets/fonts/PPNeueMachina-PlainRegular.otf") format("opentype"),
+  src: local("machina"), url("../public/assets/fonts/ppneuemachina-plainregular-webfont.woff") format("opentype"),
   url("../public/assets/fonts/ppneuemachina-plainregular-webfont.woff") format("woff");
 }
 
@@ -313,7 +313,7 @@ select {
 
 .track > h1 {
   font-size: 3rem;
-  font-family: machina;
+  font-family: grate;
   /* -webkit-text-fill-color: rgba(255, 255, 255, 0);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #f4955c; */
@@ -326,7 +326,7 @@ select {
   overflow-x: hidden;
 }
 
-.overlay-classes {
+.overlay-classes{
     background-image: url("/public/assets/images/ride45-color.png");
     background-size: cover;
     background-position: center;
@@ -339,6 +339,35 @@ select {
     opacity: 0;
     transition: opacity .35s ease-in-out;
   }
+
+  @media only screen and (max-width: 800px){
+    .overlay-media-mobile-1{
+    background-image: url("/public/assets/images/ride45-color.png");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity .35s ease-in-out !important;
+    }
+  }
+/* .overlay-classes {
+    background-image: url("/public/assets/images/ride45-color.png");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity .35s ease-in-out;
+  } */
 
   .overlay-classes-two {
     background-image: url("/public/assets/images/shred-color.jpg");
@@ -414,5 +443,11 @@ select {
 
   Button {
     font-family: 'machina';
+  }
+
+  @media only screen and (max-width: 640px){
+    .blue{
+       color: #ffffff;
+    }
   }
 

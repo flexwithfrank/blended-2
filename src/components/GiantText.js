@@ -9,10 +9,10 @@ export default function GiantText({ txt, clr, align }) {
       <Typography
             align={align}
             sx={{
-              lineHeight: '220px',
+              lineHeight:{xs: "120px", sm: "280px"},
               letterSpacing: -2,
             color: clr,
-            fontSize: {lg: 288,md: 88,sm: 88,xs: 66}}}>
+            fontSize: {xs: 166, sm: 288}}}>
                 <span className='grate'>{txt}</span>
     </Typography>
     </Stack>

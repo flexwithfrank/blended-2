@@ -17,6 +17,7 @@ import InfoSectionV1 from './components/InfoSectionV1';
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-ignore
 import { Faq } from './components/Faq.tsx';
+import { ChakraProvider } from '@chakra-ui/react'
 import FrequentlyAskedQuestions from './components/FrequentlyAskedQuestions';
 
 
@@ -44,6 +45,7 @@ root.render(
     </BrowserRouter>
     
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

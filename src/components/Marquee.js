@@ -18,20 +18,19 @@ const marqueeVariants = {
 
 const styles = {
   background: '#f0f0f6',
-  border: 'solid 2px black',
   color: '#000',
   
 }
 
 const Marquee = () => {
   return (
-    <div className='marquee machina'>
-    <Box mb={2}>
+    <div className='marquee grate'>
+    <Box>
     <motion.div
     className='track'
     variants={marqueeVariants}
     animate='animate'>
-        <h1 style={styles}>Changing the way you view wellness by re-defining your RITUAL. Changing the way you view wellness by re-defining your RITUAL. Changing the way you view wellness by re-defining your RITUAL. Changing the way you view wellness by re-defining your RITUAL. Changing the way you view wellness by re-defining your RITUAL. Changing the way you view wellness by re-defining your RITUAL. Changing the way you view wellness by re-defining your RITUAL.</h1>
+        <h1 style={styles}>MORE BURPEES — MORE TAP BACKS — MORE SPRINTS — MORE SQUATS — MORE SWEAT — MORE LAUGHS — MORE HIGH FIVES — MORE CHALLENGES MORE BURPEES — MORE TAP BACKS — MORE SPRINTS — MORE SQUATS — MORE SWEAT — MORE LAUGHS — MORE HIGH FIVES — MORE CHALLENGES MORE BURPEES — MORE TAP BACKS — MORE SPRINTS — MORE SQUATS — MORE SWEAT — MORE LAUGHS — MORE HIGH FIVES — MORE CHALLENGES MORE BURPEES — MORE TAP BACKS — MORE SPRINTS — MORE SQUATS — MORE SWEAT — MORE LAUGHS — MORE HIGH FIVES — MORE CHALLENGES MORE BURPEES — MORE TAP BACKS — MORE SPRINTS — MORE SQUATS — MORE SWEAT — MORE LAUGHS — MORE HIGH FIVES — MORE CHALLENGES — </h1>
     </motion.div>
     </Box>
     </div>

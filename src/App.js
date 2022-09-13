@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import InfoSectionV1 from './components/InfoSectionV1';
 import InfoSectionV2 from './components/InfoSectionV2';
 import RewardsPlatform from './components/RewardsPlatform';
+import ButtonRounded from './components/ButtonRounded';
 import { InfoSectionRounded } from './components/InfoSectionRounded';
 import WideImage from './components/WideImage';
 import CardV1 from './components/CardV1';
@@ -23,10 +24,20 @@ import WhatWeOfferGrid from './components/WhatWeOfferGrid';
 import { Typography } from '@mui/material';
 import { HeroImageBackground } from './components/HeroV2.tsx';
 import { Faq } from './components/Faq.tsx';
-import { Container } from '@mui/material';
+import { Container, Stack } from '@mui/material';
 import { FeaturesGrid } from './components/FeaturesGrid.tsx';
-
-
+import WithSubnavigation from './components/nav/NavbarV2.tsx'
+import {
+  ChakraProvider,
+  Text,
+  Link,
+  VStack,
+  Code,
+  Grid,
+  theme,
+} from '@chakra-ui/react';
+import HeroVideo from './components/Videos/HeroVideo';
+import HeaderStack from './components/HeaderStack';
 
 const hideAnimation = {
   overflowX: 'hidden',
@@ -37,13 +48,11 @@ const hideAnimation = {
 function App() {
   const [shouldShowActions, setShouldShowActions] = React.useState(false);
   const [lastYPos, setLastYPos] = React.useState(0);
-
   React.useEffect(() => {
 
     function handleScroll() {
       const yPos = window.scrollY;
       const isScrollingUp = yPos < lastYPos;
-
       setShouldShowActions(isScrollingUp);
       setLastYPos(yPos);
     }
@@ -54,64 +63,31 @@ function App() {
   }, [lastYPos])
   
   return (
+    
     <div className="App">
       <header className="App-header"> 
+      <HeroVideo />
 
-      <HeroImageBackground />
-
-
-          {/* <WideImage
-        src='/assets/images/june-reach.jpg' /> */}
-        <Marquee />
-        
-        {/* <GiantText
-        txt='YOUR RITUAL.'
-        clr='#f0f0f6'
-        align='right' /> */}
-
-        <GiantTextRow
+  
+        {/* <GiantTextRow
         src='/assets/images/nicole-hair.jpg'
-        txt1='EAT RAW. EAT CLEAN.'
+        txt1='FIND YOUR. TRIBE.'
         txt2='LOVE MORE.'
         align1='right'
-        align2='right' />
+        align2='right' /> */}
 
-         {/* <Box mt={15}>
-          <GiantText
-        txt='RITUAL.'
-        clr='#35373a'
-        align='center' />
-        </Box> */}
-
-        <Typography
-        p={2}
-        color='white'
-        align='left' 
-        sx={{ mb: 2, mt: 10, fontSize: {xs: 32, sm: 62}}}>
-        <div className='machina'>4 Boutique offerings</div>
-        </Typography>
-
+       <HeaderStack />
+        
         <WhatWeOfferGrid />
 
-        
-
-        <RewardsPlatform />
-
+        <Box mt={15}>
          <GiantTextRow
         dir='row-reverse'
-        src='/assets/images/katie-hair-flip.jpg'
-        txt1='MOVE IT. TAKE TIME.'
-        txt2='LIVE MORE.' />
-        
-
-
-        {/* <Box sx={{m: 5}}>
-          <GiantText
-        txt='ISSA VIBE.'
-        clr='#35373a'
-        align='left' />
-        </Box> */}
-
+        src='https://storage.googleapis.com/msgsndr/M4LpH9VZkgr3fIOnQTtk/media/6320f2225181604d13d7cd3a.png'
+        txt1='SWEAT ✚ DREAM ＝'
+        txt2='MOVEMENT.' />
+        </Box>
+  
 
         <Box sx={{m: 5}}>
         <GiantText
@@ -174,22 +150,12 @@ function App() {
         src2='/assets/images/smoothie.gif'
         title2='Box of Chocolates'
         pri2='$8.50'
-         />
-
-          <motion.Box 
-        animate={{ x: 0 }}
-        initial={{ x: -400 }}
-        transition={{ duration: 1 }}
-        sx={{mt: 10}}>
-        <GiantText
-        txt='RITUAL SEATTLE.'
-        clr='#f0f0f6'
-        align='left' />
-        </motion.Box>  
+         /> 
   
   
       </header>
     </div>
+
   );
 }
 

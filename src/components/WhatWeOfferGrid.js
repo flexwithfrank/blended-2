@@ -88,6 +88,22 @@ const textTop = {
 
 const WhatWeOfferGrid = () => {
 
+    const [state, setstate] = useState(false);
+
+  const changeClass = () => {
+    const scrollValue = document.documentElement.scrollTop;
+
+    if(scrollValue > 400)
+    {
+      setstate(true);
+    }
+    else{
+      setstate(false);
+    }
+      
+  }
+  window.addEventListener('scroll', changeClass);
+
 const [classImageOne, setClassImageOne] = useState(false);
 const [classImageTwo, setClassImageTwo] = useState(false);
 const [classImageThree, setClassImageThree] = useState(false);
@@ -105,9 +121,12 @@ const [classImageSix, setClassImageSix] = useState(false)
                 onMouseLeave={() => setClassImageOne(false)}
                 style={bgImage} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
+
+
                     <div style={{opacity: classImageOne ? '1' : ''}} 
-                    className='overlay-classes'>
+                    className="overlay-classes">
                     </div>
+
                 {/* text */}
                 <Box style={textTop}>
                     <Typography

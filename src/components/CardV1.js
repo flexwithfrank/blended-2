@@ -31,7 +31,7 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             color: clr,
             mb: 3,
             lineHeight: 1, 
-            fontSize: {lg: 48,md: 42,sm: 32,xs: 32}}}>
+            fontSize: {xs: 28, sm: 42}}}>
                 <span className='machina'>{txt1}</span>
             </Typography>
 
@@ -40,7 +40,7 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             mb: 3,
             color: clr,
             lineHeight: 1, 
-            fontSize: {lg: 28,md: 42,sm: 32,xs: 32}}}>
+            fontSize: {xs: 22, sm: 28}}}>
                 <span className='machina'>{txt2}</span>
             </Typography>
             
@@ -50,7 +50,7 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
                 alignItems='center'
                 spacing={1}>
             <VerifiedOutlinedIcon sx={{ color: clr}} />    
-            <Typography align='right' sx={{ color: clr, mb: 1, fontSize: {lg: 22,md: 22,sm: 22,xs: 18}}}>
+            <Typography align='right' fontSize={{xs: 16, sm: 20}} sx={{ color: clr, mb: 1}}>
                 <span className='machina'>{txt3}</span>
             </Typography>
             </Stack>
@@ -76,7 +76,7 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             color: clr,
             mb: 3,
             lineHeight: 1, 
-            fontSize: {lg: 48,md: 42,sm: 32,xs: 32}}}>
+            fontSize: {xs: 28, sm: 42}}}>
                 <span className='machina'>{txt4}</span>
             </Typography>
 
@@ -85,7 +85,7 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             mb: 3,
             color: clr,
             lineHeight: 1, 
-            fontSize: {lg: 28,md: 42,sm: 32,xs: 32}}}>
+            fontSize: {xs: 22, sm: 28}}}>
                 <span className='machina'>{txt5}</span>
             </Typography>
 
@@ -95,7 +95,7 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
                 alignItems='center'
                 spacing={1}>
             <VerifiedOutlinedIcon sx={{ color: clr}} />    
-            <Typography align='right' sx={{ color: clr, mb: 1, fontSize: {lg: 22,md: 22,sm: 22,xs: 18}}}>
+            <Typography align='right' fontSize={{xs: 16, sm: 20}} sx={{ color: clr, mb: 1}}>
                 <span className='machina'>{txt6}</span>
             </Typography>
             </Stack>
