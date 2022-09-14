@@ -18,13 +18,15 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
          justifyContent='center'
           container>
 
-            <Grid sx={{ p: 5, borderRadius: 5, m: 3, backgroundColor: bg }} 
+            <Grid sx={{ p: 5, borderRadius: 5, m: 2, backgroundColor: bg }} 
             item xs={12} sm={5}>
 
             <AvatarBadge
             tag1={tag1}
             tag2={tag2}
             src={src} />
+
+            {/* header text */}
 
             <Typography 
             sx={{
@@ -35,6 +37,8 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
                 <span className='machina'>{txt1}</span>
             </Typography>
 
+            {/* description text */}
+
             <Typography 
             sx={{
             mb: 3,
@@ -44,13 +48,14 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
                 <span className='machina'>{txt2}</span>
             </Typography>
             
+            {/* verification tag bottom */}
             <Stack 
                 direction="row"
                 justifyContent="flex-end"
                 alignItems='center'
                 spacing={1}>
             <VerifiedOutlinedIcon sx={{ color: clr}} />    
-            <Typography align='right' fontSize={{xs: 16, sm: 20}} sx={{ color: clr, mb: 1}}>
+            <Typography align='right' fontSize={{xs: 14, sm: 20}} sx={{ color: clr, mb: 1}}>
                 <span className='machina'>{txt3}</span>
             </Typography>
             </Stack>
@@ -64,13 +69,13 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
 
             {/* card right side */}
 
-            <Grid sx={{ p: 5, borderRadius: 5, m: 3, backgroundColor: bg }} 
+            <Grid sx={{ p: 5, borderRadius: 5, m: 2, backgroundColor: bg }} 
             item xs={12} sm={5}>
             <AvatarBadge
             tag1={tag3}
             tag2={tag4}
             src={src1} />
-
+                {/* heading text */}
             <Typography 
             sx={{
             color: clr,
@@ -79,7 +84,7 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             fontSize: {xs: 28, sm: 42}}}>
                 <span className='machina'>{txt4}</span>
             </Typography>
-
+                {/* description text */}
             <Typography 
             sx={{
             mb: 3,
@@ -88,14 +93,14 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             fontSize: {xs: 22, sm: 28}}}>
                 <span className='machina'>{txt5}</span>
             </Typography>
-
+                {/* verification tag */}
             <Stack 
                 direction="row"
                 justifyContent="flex-end"
                 alignItems='center'
                 spacing={1}>
             <VerifiedOutlinedIcon sx={{ color: clr}} />    
-            <Typography align='right' fontSize={{xs: 16, sm: 20}} sx={{ color: clr, mb: 1}}>
+            <Typography align='right' fontSize={{xs: 14, sm: 20}} sx={{ color: clr, mb: 1}}>
                 <span className='machina'>{txt6}</span>
             </Typography>
             </Stack>

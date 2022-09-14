@@ -8,7 +8,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useState } from 'react';
 import { Stack } from '@mui/material';
 import { motion } from 'framer-motion';
-
+import { useRef } from 'react';
 
 const gridStyle = {
     position: 'relative'
@@ -86,22 +86,6 @@ const textTop = {
 
 const WhatWeOfferGrid = () => {
 
-    const [state, setstate] = useState(false);
-
-  const changeClass = () => {
-    const scrollValue = document.documentElement.scrollTop;
-
-    if(scrollValue > 400)
-    {
-      setstate(true);
-    }
-    else{
-      setstate(false);
-    }
-      
-  }
-  window.addEventListener('scroll', changeClass);
-
 const [classImageOne, setClassImageOne] = useState(false);
 const [classImageTwo, setClassImageTwo] = useState(false);
 const [classImageThree, setClassImageThree] = useState(false);
@@ -120,9 +104,9 @@ const [classImageSix, setClassImageSix] = useState(false)
                 style={bgImage} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
 
+   
                 <motion.div 
-                style={{opacity: classImageOne ? '1' : ''}}
-                 className="overlay-classes" 
+                className="overlay-classes" 
                 whileInView={{ opacity: [0, .25, .50, .75, 1]}}
                 initial={{ opacity: 0 }}
                 transition={{ delay: .50, ease: "easeInOut", duration: 1 }}>

@@ -141,7 +141,7 @@ function App() {
         src='/assets/images/1.png'
         title='Strawberry Shawty'
         pri='$8.50'
-        cta='Order now — please'
+        cta='Order now'
 
         src1='/assets/images/2.png'
         title1='Sweet Aloha'
