@@ -10,7 +10,7 @@ const CardV2 = ({ src, src1, src2, title, title1, title2, pri, pri1, pri2, cta }
   return (
         <Container sx={{mb: 10}} maxWidth="xl" disableGutters="true">
     <Grid 
-    sx={{ p: 5 }}
+    sx={{ p: 2 }}
     spacing={5} container>
 
         {/* item 1 /////////////// */}
