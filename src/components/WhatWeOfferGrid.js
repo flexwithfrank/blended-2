@@ -7,6 +7,7 @@ import { Button } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useState } from 'react';
 import { Stack } from '@mui/material';
+import { motion } from 'framer-motion';
 
 
 const gridStyle = {
@@ -119,10 +120,13 @@ const [classImageSix, setClassImageSix] = useState(false)
                 style={bgImage} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
 
-
-                    <div style={{opacity: classImageOne ? '1' : ''}} 
-                    className="overlay-classes">
-                    </div>
+                <motion.div 
+                style={{opacity: classImageOne ? '1' : ''}}
+                 className="overlay-classes" 
+                whileInView={{ opacity: [0, .25, .50, .75, 1]}}
+                initial={{ opacity: 0 }}
+                transition={{ delay: .50, ease: "easeInOut", duration: 1 }}>
+                </motion.div>
 
                 {/* text */}
                 <Box style={textTop}>
@@ -131,7 +135,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>RIDE45 ©</span>
+                    <span className='grate'>RIDE45<span className='machina' style={{fontSize: 18}}>©</span></span>
                     <div style={{fontSize: 22}} className='machina'>45-min all out spin</div>
                     </Typography>
                         <Typography
@@ -157,9 +161,13 @@ const [classImageSix, setClassImageSix] = useState(false)
                 onMouseLeave={() => setClassImageTwo(false)}
                 style={bgImageTwo} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
-                    <div style={{opacity: classImageTwo ? '1' : ''}} 
-                    className='overlay-classes-two'>
-                    </div>
+                <motion.div 
+                    style={{opacity: classImageTwo ? '1' : ''}}
+                    className="overlay-classes-two" 
+                    whileInView={{ opacity: [0, .25, .50, .75, 1]}}
+                    initial={{ opacity: 0 }}
+                    transition={{ delay: .50, ease: "easeInOut", duration: 1 }}>
+                </motion.div>
                 {/* text */}
                 <Box style={textTop}>
                     <Typography
@@ -167,7 +175,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>INFRARED STUDIO ©</span>
+                    <span className='grate'>INFRARED STUDIO<span className='machina' style={{fontSize: 18}}>©</span></span>
                     <div style={{fontSize: 22}} className='machina'>Formats to get you sweating</div>
                     </Typography>
                         <Typography
@@ -192,9 +200,13 @@ const [classImageSix, setClassImageSix] = useState(false)
                 onMouseLeave={() => setClassImageThree(false)}
                 style={bgImageThree} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
-                    <div style={{opacity: classImageThree ? '1' : ''}} 
-                    className='overlay-classes-three'>
-                    </div>
+                <motion.div 
+                    style={{opacity: classImageThree ? '1' : ''}}
+                    className="overlay-classes-three" 
+                    whileInView={{ opacity: [0, .25, .50, .75, 1]}}
+                    initial={{ opacity: 0 }}
+                    transition={{ delay: .50, ease: "easeInOut", duration: 1 }}>
+                </motion.div>
                 {/* text */}
                 <Box style={textTop}>
                     <Typography
@@ -202,7 +214,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>STRENGTH ENDURANCE &reg;</span>
+                    <span className='grate'>STRENGTH ENDURANCE<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Lift heavy sh*t, feel strong.</div>
                     </Typography>
                         <Typography
@@ -226,9 +238,13 @@ const [classImageSix, setClassImageSix] = useState(false)
                 onMouseLeave={() => setClassImageFour(false)}
                 style={bgImageFour} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
-                    <div style={{opacity: classImageFour ? '1' : ''}} 
-                    className='overlay-classes-four'>
-                    </div>
+                <motion.div 
+                    style={{opacity: classImageFour ? '1' : ''}}
+                    className="overlay-classes-four" 
+                    whileInView={{ opacity: [0, .25, .50, .75, 1]}}
+                    initial={{ opacity: 0 }}
+                    transition={{ delay: .50, ease: "easeInOut", duration: 1 }}>
+                </motion.div>
                 {/* text */}
                 <Box style={textTop}>
                     <Typography
@@ -236,7 +252,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>SUPERFOOD CAFE &reg;</span>
+                    <span className='grate'>SUPERFOOD CAFE<span className='machina' style={{fontSize: 28}}>™️</span></span>
                     <div style={{fontSize: 22}} className='machina'>Plant based bites to fuel your day.</div>
                     </Typography>
                         <Typography
@@ -262,9 +278,13 @@ const [classImageSix, setClassImageSix] = useState(false)
                 onMouseLeave={() => setClassImageFive(false)}
                 style={bgImageFive} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
-                    <div style={{opacity: classImageFive ? '1' : ''}} 
-                    className='overlay-classes-five'>
-                    </div>
+                <motion.div 
+                    style={{opacity: classImageFive ? '1' : ''}}
+                    className="overlay-classes-five" 
+                    whileInView={{ opacity: [0, .25, .50, .75, 1]}}
+                    initial={{ opacity: 0 }}
+                    transition={{ delay: .50, ease: "easeInOut", duration: 1 }}>
+                </motion.div>
                 {/* text */}
                 <Box style={textTop}>
                     <Typography
@@ -272,7 +292,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>WELLNESS CENTER &reg;</span>
+                    <span className='grate'>WELLNESS CENTER<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Science-backed recovery to heal you.</div>
                     </Typography>
                     <Stack className='machina' direction='row' spacing={2}>
@@ -301,9 +321,13 @@ const [classImageSix, setClassImageSix] = useState(false)
                 onMouseLeave={() => setClassImageSix(false)}
                 style={bgImageSix} item container xs={12} sm={5.8}>   
                     {/* image overlay */}
-                    <div style={{opacity: classImageSix ? '1' : ''}} 
-                    className='overlay-classes-six'>
-                    </div>
+                <motion.div 
+                    style={{opacity: classImageSix ? '1' : ''}}
+                    className="overlay-classes-six" 
+                    whileInView={{ opacity: [0, .25, .50, .75, 1]}}
+                    initial={{ opacity: 0 }}
+                    transition={{ delay: .50, ease: "easeInOut", duration: 1 }}>
+                </motion.div>
                 {/* text */}
                 <Box style={textTop}>
                     <Typography
@@ -311,7 +335,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>HOLISTIC CARE &reg;</span>
+                    <span className='grate'>RITUAL MEDSPA<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Professional services to create true wellness</div>
                     </Typography>
                         <Typography

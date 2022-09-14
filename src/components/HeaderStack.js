@@ -34,7 +34,7 @@ const HeaderStack = () => {
         <motion.div 
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y: 60}}
-        transition={{ delay: .25, duration: .50}}>
+        transition={{ delay: .35, duration: .50}}>
         <Stack alignItems="center" justifyContent="center" direction="column">
         <ButtonMain cta="Sign up now" />
         </Stack>
