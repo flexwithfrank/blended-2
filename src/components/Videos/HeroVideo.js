@@ -9,7 +9,7 @@ const HeroVideo = () => {
             playing="true"
             loop="true"
             volume="0"
-            mute="true"
+            muted="true"
             url='https://studio3fit.com/wp-content/uploads/2022/01/s3-ad-2022.mp4'
             width="100%"
             height="auto"
