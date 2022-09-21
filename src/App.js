@@ -89,7 +89,7 @@ function App() {
         </Box>
   
 
-        <Box sx={{m: 5}}>
+        <Box sx={{m: { xs: 1, sm: 5}}}>
         <GiantText
         txt='REVIEWS.'
         clr='#35373a'
@@ -130,7 +130,7 @@ function App() {
         tag4='@verointhestreet' 
         />
 
-        <Box sx={{m: 5}}>
+        <Box sx={{m: { xs: 1, sm: 5}}}>
         <GiantText
         txt='FEATURED.'
         clr='#35373a'

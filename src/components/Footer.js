@@ -13,8 +13,12 @@ import EmailForm from './EmailForm'
 
 
 
+const removeUnderline = {
+    textDecoration: "none"
+}
+
 const Footer = () => {
-  return (
+  return ( 
 
   <footer>
     <Box
@@ -26,18 +30,18 @@ const Footer = () => {
             <Grid p={5} container>
                 {/* footer column one ////////// */}
                 <Grid item xs={12} sm={4}>
-                    <Box sx={{ fontSize: 84}} className='grate'>
-                        <Link href="/" color="inherit">
-                        RITUAL.
+                    <Box sx={{ fontSize: 64}} className='grate'>
+                        <Link style={removeUnderline} href="/" color="inherit">
+                        STUDIO3.
                         </Link>
                     </Box>
                     <Box my={5} className='machina'>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                         Find your ritual.
                         </Link>
                     </Box>
                     <Box my={5}>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                         <Stack spacing={3} direction='row'>
                             <InstagramIcon sx={{ width: 30, height: 30 }} />
                             <FacebookIcon sx={{ width: 30, height: 30 }} />
@@ -48,7 +52,7 @@ const Footer = () => {
                         </Link>
                     </Box>
                     <Box my={5} className='machina'>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                         hello@ritual.com
                         </Link>
                     </Box>
@@ -56,22 +60,22 @@ const Footer = () => {
                 {/* footer column two ////////// */}
                 <Grid item xs={12} sm={4}>
                     <Box mt={5} className='machina'>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                         Home.
                         </Link>
                     </Box>
                     <Box my={2} className='machina'>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                         Book Workout.
                         </Link>
                     </Box>
                     <Box my={2} className='machina'>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                         Get directions.
                         </Link>
                     </Box>
                     <Box my={2} className='machina'>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                         Send us a message.
                         </Link>
                     </Box>
@@ -89,7 +93,7 @@ const Footer = () => {
 
                 <Grid item xs={12} sm={4}>
                     <Box mt={5} className='machina'>
-                        <Link href="/" color="inherit">
+                        <Link style={removeUnderline} href="/" color="inherit">
                             <Box pb={2}>Download the app &reg; get rewards.</Box>
                         <div><img src={'/assets/images/badge-1.png'} width='50%' alt='app-store-icon' /></div>
                         <div><img src={'/assets/images/badge-2.png'} width='50%' alt='app-store-icon' /></div>
