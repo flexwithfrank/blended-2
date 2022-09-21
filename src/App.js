@@ -132,7 +132,7 @@ function App() {
 
         <Box sx={{m: { xs: 1, sm: 5}}}>
         <GiantText
-        txt='FEATURED.'
+        txt='BLENDS.'
         clr='#35373a'
         align='left' />
         </Box>

@@ -7,10 +7,10 @@ export default function GiantText({ txt, clr, align }) {
       <Typography
             align={align}
             sx={{
-              lineHeight:{xs: "120px", sm: "220px"},
+              lineHeight:{xs: "88px", sm: "220px"},
               letterSpacing: -2,
             color: clr,
-            fontSize: {xs: 112, sm: 288}}}>
+            fontSize: {xs: 102, sm: 288}}}>
                 <span className='frank-bold'>{txt}</span>
     </Typography>
     </div>

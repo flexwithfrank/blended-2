@@ -17,7 +17,7 @@ const HeaderStack = () => {
             pb={4}
             color='white'
             align='center' 
-            sx={{ fontSize: {xs: 44, sm: 62}}}>
+            sx={{ fontSize: {xs: 38, sm: 62}}}>
             <span className='frank-bold'>HOLISTIC WELLNESS EXPERIENCE</span> 
     </Typography>
      </motion.div>

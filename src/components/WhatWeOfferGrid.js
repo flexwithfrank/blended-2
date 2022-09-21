@@ -118,7 +118,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     p={2}
                     color='white'
                     align='left' 
-                    sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
+                    sx={{ mb: 2, fontSize: {xs: 58, sm: 82}}}>
                     <span className='frank-bold'>RIDE45<span className='machina' style={{fontSize: 18}}>©</span></span>
                     <div style={{fontSize: 22}} className='frank-reg'>45-min all out spin</div>
                     </Typography>
@@ -158,7 +158,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     p={2}
                     color='white'
                     align='left' 
-                    sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
+                    sx={{ mb: 2, fontSize: {xs: 58, sm: 82}}}>
                     <span className='frank-bold'>INFRARED<span className='machina' style={{fontSize: 18}}>©</span></span>
                     <div style={{fontSize: 22}} className='machina'>Formats to get you sweating</div>
                     </Typography>
@@ -197,7 +197,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     p={2}
                     color='white'
                     align='left' 
-                    sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
+                    sx={{ mb: 2, fontSize: {xs: 58, sm: 82}}}>
                     <span className='frank-bold'>STRENGTH<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Lift heavy sh*t, feel strong.</div>
                     </Typography>
@@ -235,7 +235,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     p={2}
                     color='white'
                     align='left' 
-                    sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
+                    sx={{ mb: 2, fontSize: {xs: 58, sm: 82}}}>
                     <span className='frank-bold'>CAFE &amp; BAR<span className='machina' style={{fontSize: 28}}>™️</span></span>
                     <div style={{fontSize: 22}} className='machina'>Plant based bites to fuel your day.</div>
                     </Typography>
@@ -275,7 +275,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     p={2}
                     color='white'
                     align='left' 
-                    sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
+                    sx={{ mb: 2, fontSize: {xs: 58, sm: 82}}}>
                     <span className='frank-bold'>WELLNESS<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Science-backed recovery to heal you.</div>
                     </Typography>
@@ -318,7 +318,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     p={2}
                     color='white'
                     align='left' 
-                    sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
+                    sx={{ mb: 2, fontSize: {xs: 58, sm: 82}}}>
                     <span className='frank-bold'>MEDSPA<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Professional services to create true wellness</div>
                     </Typography>

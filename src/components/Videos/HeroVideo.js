@@ -24,7 +24,7 @@ const HeroVideo = () => {
                 sx={{ 
                 lineHeight:{xs: "120px", sm: "220px"},
                 color: "white",
-                fontSize: {xs: 40, sm: 88}}}>
+                fontSize: {xs: 32, sm: 88}}}>
                 <span className='frank-bold'>EXPERIENCE THE HYPE.</span>
                 </Typography>
             </Box>
