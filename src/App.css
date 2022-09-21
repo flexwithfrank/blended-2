@@ -510,3 +510,7 @@ select {
 .tester::after{
   content: ".";
 }
+
+.move-text{
+  position: absolute;
+}

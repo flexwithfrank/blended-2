@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
-import { Container  } from '@mui/material';
+import { Container, Typography, Box  } from '@mui/material';
 
 const HeroVideo = () => {
   return (
@@ -14,6 +14,20 @@ const HeroVideo = () => {
             width="100%"
             height="auto"
             playsinline="true" />
+
+            <Box sx={{ 
+              mt: {xs: "-200px", sm: "-600px" },
+              ml: {xs: 5, sm: 35 }
+              }} className='move-text'>
+                <Typography
+                align="center"
+                sx={{ 
+                lineHeight:{xs: "120px", sm: "220px"},
+                color: "white",
+                fontSize: {xs: 40, sm: 88}}}>
+                <span className='frank-bold'>EXPERIENCE THE HYPE.</span>
+                </Typography>
+            </Box>
     </Container>
   )
 }
