@@ -119,15 +119,15 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>RIDE45<span className='machina' style={{fontSize: 18}}>©</span></span>
-                    <div style={{fontSize: 22}} className='machina'>45-min all out spin</div>
+                    <span className='frank-bold'>RIDE45<span className='machina' style={{fontSize: 18}}>©</span></span>
+                    <div style={{fontSize: 22}} className='frank-reg'>45-min all out spin</div>
                     </Typography>
                         <Typography
                         p={2}
                         color='white'
                         align='left' 
                         sx={{ fontSize: {xs: 18, sm: 18}}}>
-                        <span className='machina'>Heart pumpin', sweat dripping indoor spin with inspiring lights and
+                        <span className='konstanz'>Heart pumpin', sweat dripping indoor spin with inspiring lights and
                         motivational instructors ready to give you the best RIDE45 of your life.</span>
                         </Typography>
                     <Box sx={{fontColor: '#fff'}} px={2}>
@@ -159,7 +159,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>INFRARED STUDIO<span className='machina' style={{fontSize: 18}}>©</span></span>
+                    <span className='frank-bold'>INFRARED<span className='machina' style={{fontSize: 18}}>©</span></span>
                     <div style={{fontSize: 22}} className='machina'>Formats to get you sweating</div>
                     </Typography>
                         <Typography
@@ -198,7 +198,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>STRENGTH ENDURANCE<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
+                    <span className='frank-bold'>STRENGTH<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Lift heavy sh*t, feel strong.</div>
                     </Typography>
                         <Typography
@@ -236,7 +236,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>SUPERFOOD CAFE<span className='machina' style={{fontSize: 28}}>™️</span></span>
+                    <span className='frank-bold'>CAFE &amp; BAR<span className='machina' style={{fontSize: 28}}>™️</span></span>
                     <div style={{fontSize: 22}} className='machina'>Plant based bites to fuel your day.</div>
                     </Typography>
                         <Typography
@@ -276,7 +276,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>WELLNESS CENTER<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
+                    <span className='frank-bold'>WELLNESS<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Science-backed recovery to heal you.</div>
                     </Typography>
                     <Stack className='machina' direction='row' spacing={2}>
@@ -319,7 +319,7 @@ const [classImageSix, setClassImageSix] = useState(false)
                     color='white'
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 62, sm: 82}}}>
-                    <span className='grate'>RITUAL MEDSPA<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
+                    <span className='frank-bold'>MEDSPA<span className='machina' style={{fontSize: 28}}>&reg;</span></span>
                     <div style={{fontSize: 22}} className='machina'>Professional services to create true wellness</div>
                     </Typography>
                         <Typography

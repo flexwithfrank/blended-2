@@ -84,14 +84,14 @@ function App() {
          <GiantTextRow
         dir='row-reverse'
         src='https://storage.googleapis.com/msgsndr/M4LpH9VZkgr3fIOnQTtk/media/6320f9106eefac4fe9a7b933.png'
-        txt1='SWEAT ✚ DREAM ＝'
-        txt2='MOVEMENT.' />
+        txt1="FUEL."
+        txt2='YOUR.' />
         </Box>
   
 
         <Box sx={{m: 5}}>
         <GiantText
-        txt='THE REVIEWS.'
+        txt='REVIEWS.'
         clr='#35373a'
         align='left' />
         </Box>

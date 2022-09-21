@@ -87,6 +87,41 @@
   url("../public/assets/fonts/ppneuemachina-plainregular-webfont.woff") format("woff");
 }
 
+@font-face {
+  font-family: "frank-bold";
+  src: local("frank-bold"), url("../public/assets/fonts/Frank-Black.ttf") format("truetype"),
+  url("../public/assets/fonts/frank-black-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "frank-reg";
+  src: local("frank-reg"), url("../public/assets/fonts/Frank-Regular.ttf") format("truetype"),
+  url("../public/assets/fonts/frank-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "konstanz";
+  src: local("konstanz"), url("../public/assets/fonts/Konstanz-Regular.otf") format("opentype"),
+  url("../public/assets/fonts/konstanz-regular-webfont.woff") format("woff");
+}
+
+.frank-bold{
+  font-family: "frank-bold";
+  margin: 0;
+  padding: 0;
+}
+
+.frank-reg{
+  font-family: "frank-reg";
+  margin: 0;
+  padding: 0;
+}
+
+.konstanz{
+  font-family: "konstanz";
+  margin: 0;
+  padding: 0;
+}
 .machina{
   font-family: 'machina';
   margin: 0;
@@ -439,8 +474,6 @@ select {
     border-radius: 10px;
   }
 
-
-
   Button {
     font-family: 'machina';
   }
@@ -451,3 +484,29 @@ select {
     }
   }
 
+  @keyframes animate {
+    0% {
+      content: "JOY"
+    }
+    25%{
+      content: "SOUL"
+    }
+    50% {
+      content: "MIND"
+    }
+    75% {
+      content: "BODY"
+    }
+    100% {
+      content: "VIBE"
+    }
+  }
+
+ .tester::before {
+  content: "";
+  animation: animate infinite 8s;
+}
+
+.tester::after{
+  content: ".";
+}

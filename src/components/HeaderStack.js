@@ -17,8 +17,8 @@ const HeaderStack = () => {
             pb={4}
             color='white'
             align='center' 
-            sx={{ fontSize: {xs: 64, sm: 82}}}>
-            <span className='grate'>HOLISTIC WELLNESS EXPERIENCE</span> 
+            sx={{ fontSize: {xs: 44, sm: 62}}}>
+            <span className='frank-bold'>HOLISTIC WELLNESS EXPERIENCE</span> 
     </Typography>
      </motion.div>
 
@@ -26,9 +26,11 @@ const HeaderStack = () => {
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y: 60}}
         transition={{ delay: .15, duration: .50}}>
+          <Box sx={{ textAlign: "center", maxWidth: 550, margin: '0 auto' }}>
          <Typography mb={5} px={3} color="white" align='center' fontSize={{xs:22}}>
-          <span className='machina'>Signature workouts to get you sweating and get you to your goals quick</span>
+          <span className='konstanz'>Signature workouts to get you sweating and get you to your goals quick</span>
           </Typography>
+          </Box>
           </motion.div>
 
         <motion.div 

@@ -33,8 +33,8 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             color: clr,
             mb: 3,
             lineHeight: 1, 
-            fontSize: {xs: 28, sm: 42}}}>
-                <span className='machina'>{txt1}</span>
+            fontSize: {xs: 28, sm: 32}}}>
+                <span className='frank-bold'>{txt1}</span>
             </Typography>
 
             {/* description text */}
@@ -44,8 +44,8 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             mb: 3,
             color: clr,
             lineHeight: 1, 
-            fontSize: {xs: 22, sm: 28}}}>
-                <span className='machina'>{txt2}</span>
+            fontSize: {xs: 18, sm: 22}}}>
+                <span className='konstanz'>{txt2}</span>
             </Typography>
             
             {/* verification tag bottom */}
@@ -81,8 +81,8 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             color: clr,
             mb: 3,
             lineHeight: 1, 
-            fontSize: {xs: 28, sm: 42}}}>
-                <span className='machina'>{txt4}</span>
+            fontSize: {xs: 28, sm: 32}}}>
+                <span className='frank-bold'>{txt4}</span>
             </Typography>
                 {/* description text */}
             <Typography 
@@ -90,8 +90,8 @@ export default function CardV1({ clr, bg, src, src1, txt1, txt2, txt3, txt4, txt
             mb: 3,
             color: clr,
             lineHeight: 1, 
-            fontSize: {xs: 22, sm: 28}}}>
-                <span className='machina'>{txt5}</span>
+            fontSize: {xs: 18, sm: 22}}}>
+                <span className='konstanz'>{txt5}</span>
             </Typography>
                 {/* verification tag */}
             <Stack 
