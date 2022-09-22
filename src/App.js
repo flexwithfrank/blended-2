@@ -1,41 +1,12 @@
 import './App.css';
 import React from 'react';
-import CtaComponent from './components/CtaComponent';
-import Hero from './components/Hero';
-import NavBar from './components/NavBar';
-import InfoSectionV1 from './components/InfoSectionV1';
-import InfoSectionV2 from './components/InfoSectionV2';
-import RewardsPlatform from './components/RewardsPlatform';
-import ButtonRounded from './components/ButtonRounded';
-import { InfoSectionRounded } from './components/InfoSectionRounded';
-import WideImage from './components/WideImage';
 import CardV1 from './components/CardV1';
 import CardV2 from './components/CardV2';
-import Location from './components/Location';
 import { Box } from '@mui/material';
 import GiantText from './components/GiantText';
 import GiantTextRow from './components/GiantTextRow';
-import InfoGridV1 from './components/InfoGridV1';
-import Footer from './components/Footer';
-import { motion } from "framer-motion"
 import Marquee from './components/Marquee';
-import ModalSchedule from './components/ModalSchedule'
 import WhatWeOfferGrid from './components/WhatWeOfferGrid';
-import { Typography } from '@mui/material';
-import { HeroImageBackground } from './components/HeroV2.tsx';
-import { Faq } from './components/Faq.tsx';
-import { Container, Stack } from '@mui/material';
-import { FeaturesGrid } from './components/FeaturesGrid.tsx';
-import WithSubnavigation from './components/nav/NavbarV2.tsx'
-import {
-  ChakraProvider,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
 import HeroVideo from './components/Videos/HeroVideo';
 import HeaderStack from './components/HeaderStack';
 
@@ -67,6 +38,7 @@ function App() {
     <div className="App">
       <header className="App-header"> 
       <HeroVideo />
+      <Marquee />
 
   
         {/* <GiantTextRow

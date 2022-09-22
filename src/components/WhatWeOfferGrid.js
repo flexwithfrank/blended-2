@@ -120,14 +120,14 @@ const [classImageSix, setClassImageSix] = useState(false)
                     align='left' 
                     sx={{ mb: 2, fontSize: {xs: 58, sm: 82}}}>
                     <span className='frank-bold'>RIDE45<span className='machina' style={{fontSize: 18}}>©</span></span>
-                    <div style={{fontSize: 22}} className='frank-reg'>45-min all out spin</div>
+                    <div style={{fontSize: 22}} className='machina'>45-min all out spin</div>
                     </Typography>
                         <Typography
                         p={2}
                         color='white'
                         align='left' 
                         sx={{ fontSize: {xs: 18, sm: 18}}}>
-                        <span className='konstanz'>Heart pumpin', sweat dripping indoor spin with inspiring lights and
+                        <span className='machina'>Heart pumpin', sweat dripping indoor spin with inspiring lights and
                         motivational instructors ready to give you the best RIDE45 of your life.</span>
                         </Typography>
                     <Box sx={{fontColor: '#fff'}} px={2}>

@@ -17,14 +17,15 @@ const marqueeVariants = {
 };
 
 const styles = {
-  background: '#f0f0f6',
-  color: '#000',
+  background: '#35373a',
+  color: '#949494',
+  fontFamily: 'frank-bold'
   
 }
 
 const Marquee = () => {
   return (
-    <div className='marquee grate'>
+    <div className='marquee'>
     <Box>
     <motion.div
     className='track'

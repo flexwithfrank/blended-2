@@ -28,7 +28,7 @@ const HeaderStack = () => {
         transition={{ delay: .15, duration: .50}}>
           <Box sx={{ textAlign: "center", maxWidth: 550, margin: '0 auto' }}>
          <Typography mb={5} px={3} color="white" align='center' fontSize={{xs:22}}>
-          <span className='konstanz'>Signature workouts to get you sweating and get you to your goals quick</span>
+          <span className='machina'>Signature workouts to get you sweating and get you to your goals quick</span>
           </Typography>
           </Box>
           </motion.div>
