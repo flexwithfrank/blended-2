@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const HeaderStack = () => {
   return (
     <>
-    <Container sx={{ mb: 10, mt: 10 }} disableGutters="true" maxWidth="lg">
+    <Container sx={{ mb: 10 }} disableGutters="true" maxWidth="lg">
 
       <motion.div 
         whileInView={{ opacity: 1, y: 0}}
