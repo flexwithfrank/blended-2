@@ -358,6 +358,12 @@ select {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #949494;
 }
+.frank-outline{
+  font-family: "frank-bold";
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
 
 .hidAni {
   position: relative;

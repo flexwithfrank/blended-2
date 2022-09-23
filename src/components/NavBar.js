@@ -20,7 +20,7 @@ const NavBar = () => {
     <Container>
     <LinkContainer to="/">
       <Navbar.Brand >
-        <span style={styles} className='grate'>RITUAL.</span>
+        <span style={styles} className='frank-outline'>HUMAN</span><span style={styles} className='frank-bold'>KIND</span>
       </Navbar.Brand>
     </LinkContainer>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
