@@ -66,7 +66,7 @@ function App() {
 
         <Box sx={{m: { xs: 1, sm: 5}}}>
         <GiantText
-        txt='REVIEWS.'
+        txt='TEA.'
         clr='#35373a'
         align='left' />
         </Box>
