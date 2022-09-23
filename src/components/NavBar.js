@@ -28,7 +28,7 @@ const NavBar = () => {
     </LinkContainer>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="ms-auto machina">
+    <Nav className="ms-auto frank-bold">
       <LinkContainer to={'/LocationsRoute'}>
         <Nav.Link>LOCATION</Nav.Link>
       </LinkContainer>
