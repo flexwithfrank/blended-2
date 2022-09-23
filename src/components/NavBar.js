@@ -4,7 +4,7 @@ import { Nav } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ButtonRounded from './ButtonRounded'
-import { Box } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 import { LinkContainer } from 'react-router-bootstrap'
 import { Link } from 'react-router-dom';
 
@@ -19,8 +19,11 @@ const NavBar = () => {
     <Navbar className="justify-content-center" sticky="top" collapseOnSelect expand="lg"  bg="dark" variant="dark">
     <Container>
     <LinkContainer to="/">
-      <Navbar.Brand >
+      <Navbar.Brand>
+        <Stack direction="row" spacing={0}>
+         <img src="/assets/images/smiley.png" width="75"alt="logo" className="image" />
         <span style={styles} className='frank-outline'>HUMAN</span><span style={styles} className='frank-bold'>KIND</span>
+        </Stack>
       </Navbar.Brand>
     </LinkContainer>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
