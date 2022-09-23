@@ -32,7 +32,7 @@ const HeroVideoMobile = () => {
             loop="true"
             volume="0"
             muted="true"
-            url='https://storage.googleapis.com/msgsndr/M4LpH9VZkgr3fIOnQTtk/media/632e1718632d2699bcae0a55.mp4'
+            url='https://studio3fit.com/wp-content/uploads/2022/09/human-kind-landing.mp4'
             width="100%"
             height="100%"
             playsinline="true" />
