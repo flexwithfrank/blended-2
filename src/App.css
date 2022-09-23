@@ -353,10 +353,10 @@ select {
 }
 
 .track > h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: grate;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #949494;
 }
 .frank-outline{
@@ -486,15 +486,8 @@ select {
     border-radius: 10px;
   }
 
-  Button {
-    font-family: 'machina';
-  }
 
-  @media only screen and (max-width: 640px){
-    .blue{
-       color: #ffffff;
-    }
-  }
+
 
   @keyframes animate {
     0% {
@@ -520,7 +513,7 @@ select {
 }
 
 .tester::after{
-  content: ".";
+  content: "";
 }
 
 .move-text{

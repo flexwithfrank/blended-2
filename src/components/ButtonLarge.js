@@ -51,7 +51,7 @@ const ButtonMain = ({ cta }) => {
   return (
         <div>
         <style type="text/css">{css}</style>
-            <Link href="https://studio3-schedule.vercel.app/" className='button-27'>{cta}</Link>
+            <Link href="https://studio3-schedule.vercel.app/" target="_blank" className='button-27'>{cta}</Link>
         </div>
   )
 }

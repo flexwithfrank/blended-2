@@ -9,6 +9,7 @@ import { useState } from 'react';
 import { Stack } from '@mui/material';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
+import ButtonMain from './ButtonLarge';
 
 const gridStyle = {
     position: 'relative'
@@ -130,11 +131,17 @@ const [classImageSix, setClassImageSix] = useState(false)
                         <span className='machina'>Heart pumpin', sweat dripping indoor spin with inspiring lights and
                         motivational instructors ready to give you the best RIDE45 of your life.</span>
                         </Typography>
-                    <Box sx={{fontColor: '#fff'}} px={2}>
-                        <Button endIcon={<ArrowForwardIcon />}>
-                        <span className='machina'>Sign up</span>
-                        </Button>
-                    </Box>   
+                        {/* button */}
+                        
+                        <motion.div 
+                            whileInView={{ opacity: 1, y: 0}}
+                            initial={{ opacity: 0, y: 60}}
+                            transition={{ delay: .35, duration: .50}}>
+                            <Stack p={2} alignItems="flex-start" justifyContent="flex-start" direction="column">
+                            <ButtonMain cta="Sign up" />
+                            </Stack>
+                        </motion.div>
+   
                 </Box>
                 </Grid>
 
@@ -170,11 +177,14 @@ const [classImageSix, setClassImageSix] = useState(false)
                         <span className='machina'>Infrared heated yoga studio with various formats to get you sweating.
                         Find your zen with yoga flow and get your heart pumping with Shred. Time to turn up the heat.</span>
                         </Typography>
-                    <Box sx={{fontColor: '#fff'}} px={2}>
-                        <Button endIcon={<ArrowForwardIcon />}>
-                        <span className='machina'>Sign up</span>
-                        </Button>
-                    </Box>   
+                    <motion.div 
+                            whileInView={{ opacity: 1, y: 0}}
+                            initial={{ opacity: 0, y: 60}}
+                            transition={{ delay: .35, duration: .50}}>
+                            <Stack p={2} alignItems="flex-start" justifyContent="flex-start" direction="column">
+                            <ButtonMain cta="Sign up" />
+                            </Stack>
+                    </motion.div>   
                 </Box>
                 </Grid>
 
@@ -209,11 +219,14 @@ const [classImageSix, setClassImageSix] = useState(false)
                         <span className='machina'>Strength &amp; conditioning formats to get your heart rate up and help build
                         strong muscle by lifting heavy sh*t. Every workout is different so you'll never get bored.</span>
                         </Typography>
-                    <Box sx={{fontColor: '#fff'}} px={2}>
-                        <Button endIcon={<ArrowForwardIcon />}>
-                        <span className='machina'>Sign up</span>
-                        </Button>
-                    </Box>   
+                    <motion.div 
+                            whileInView={{ opacity: 1, y: 0}}
+                            initial={{ opacity: 0, y: 60}}
+                            transition={{ delay: .35, duration: .50}}>
+                            <Stack p={2} alignItems="flex-start" justifyContent="flex-start" direction="column">
+                            <ButtonMain cta="Sign up" />
+                            </Stack>
+                    </motion.div>  
                 </Box>
                 </Grid>
                 {/* grid 4 //////////////////////////////////// */}
@@ -247,11 +260,14 @@ const [classImageSix, setClassImageSix] = useState(false)
                         <span className='machina'>We serve delicious smoothies, juice, and salads with a healthy twist. All natural 
                         ingredients to fuel your workout or to SLAY your day. Come work from home or just chill.</span>
                         </Typography>
-                    <Box sx={{fontColor: '#fff'}} px={2}>
-                        <Button endIcon={<ArrowForwardIcon />}>
-                        <span className='machina'>Sign up</span>
-                        </Button>
-                    </Box>   
+                    <motion.div 
+                            whileInView={{ opacity: 1, y: 0}}
+                            initial={{ opacity: 0, y: 60}}
+                            transition={{ delay: .35, duration: .50}}>
+                            <Stack p={2} alignItems="flex-start" justifyContent="flex-start" direction="column">
+                            <ButtonMain cta="Sign up" />
+                            </Stack>
+                    </motion.div>   
                 </Box>
                 </Grid>
 
@@ -291,11 +307,14 @@ const [classImageSix, setClassImageSix] = useState(false)
                         <span className='machina'>Our wellness center offer cryotherapy, massage, vitamin IV drips, compression therapy and much
                         more to help keep you on your a game and speed up your recovery.</span>
                         </Typography>
-                    <Box sx={{fontColor: '#fff'}} px={2}>
-                        <Button endIcon={<ArrowForwardIcon />}>
-                        <span className='machina'>Sign up</span>
-                        </Button>
-                    </Box>   
+                    <motion.div 
+                            whileInView={{ opacity: 1, y: 0}}
+                            initial={{ opacity: 0, y: 60}}
+                            transition={{ delay: .35, duration: .50}}>
+                            <Stack p={2} alignItems="flex-start" justifyContent="flex-start" direction="column">
+                            <ButtonMain cta="Sign up" />
+                            </Stack>
+                    </motion.div>   
                 </Box>
                 </Grid>
 
@@ -330,11 +349,14 @@ const [classImageSix, setClassImageSix] = useState(false)
                         <span className='machina'>Take wellness up a notch with private massages and IV Vitamin Infusions to 
                         quick charge your wellness with proven health &amp; wellness vitamin cocktails</span>
                         </Typography>
-                    <Box sx={{fontColor: '#fff'}} px={2}>
-                        <Button endIcon={<ArrowForwardIcon />}>
-                        <span className='machina'>Sign up</span>
-                        </Button>
-                    </Box>   
+                    <motion.div 
+                            whileInView={{ opacity: 1, y: 0}}
+                            initial={{ opacity: 0, y: 60}}
+                            transition={{ delay: .35, duration: .50}}>
+                            <Stack p={2} alignItems="flex-start" justifyContent="flex-start" direction="column">
+                            <ButtonMain cta="Sign up" />
+                            </Stack>
+                    </motion.div>   
                 </Box>
                 </Grid>
 

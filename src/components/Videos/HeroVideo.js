@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
-import { Container, Typography, Box  } from '@mui/material';
+import { Container, Typography, Box, Stack  } from '@mui/material';
+import ButtonMain from '../ButtonLarge';
 
 const HeroVideo = () => {
   return (
@@ -15,6 +16,7 @@ const HeroVideo = () => {
             height="auto"
             playsinline="true" />
 
+            
             <Box sx={{ 
               mt: {xs: "-200px", sm: "-600px" },
               ml: {xs: 5, sm: 35 }
@@ -28,6 +30,7 @@ const HeroVideo = () => {
                 <span className='frank-bold'>EXPERIENCE THE HYPE.</span>
                 </Typography>
             </Box>
+
     </Container>
   )
 }

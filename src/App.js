@@ -9,6 +9,7 @@ import Marquee from './components/Marquee';
 import WhatWeOfferGrid from './components/WhatWeOfferGrid';
 import HeroVideo from './components/Videos/HeroVideo';
 import HeaderStack from './components/HeaderStack';
+import HeroVideoV2 from './components/Videos/HeroVideoV2';
 
 const hideAnimation = {
   overflowX: 'hidden',
@@ -37,7 +38,7 @@ function App() {
     
     <div className="App">
       <header className="App-header"> 
-      <HeroVideo />
+      <HeroVideoV2 />
       <Marquee />
 
   
@@ -56,8 +57,8 @@ function App() {
          <GiantTextRow
         dir='row-reverse'
         src='https://storage.googleapis.com/msgsndr/M4LpH9VZkgr3fIOnQTtk/media/6320f9106eefac4fe9a7b933.png'
-        txt1="FUEL."
-        txt2='YOUR.' />
+        txt1="FUEL — "
+        txt2='YOUR 𝗫' />
         </Box>
   
 
