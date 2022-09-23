@@ -49,12 +49,12 @@ const HeroVideoV2 = () => {
         initial={{ opacity: 0, y: 60}}
         transition={{ duration: .50}}>
 
-            <Typography variant='h1' component='h1'
+            <Typography variant='h3' component='h1'
                     lineHeight={{xs: 1}}
                     pb={4}
                     color='white'
                     align='center' 
-                    sx={{ fontSize: {xs: 38, sm: 62}}}>
+                    sx={{ fontSize: {xs: 38, sm: 82}}}>
                     <span className='frank-bold'>BE HUMAN. BE KIND.</span> 
             </Typography>
 
