@@ -10,6 +10,7 @@ import WhatWeOfferGrid from './components/WhatWeOfferGrid';
 import HeroVideo from './components/Videos/HeroVideo';
 import HeaderStack from './components/HeaderStack';
 import HeroVideoV2 from './components/Videos/HeroVideoV2';
+import HeroVideoMobile from './components/Videos/HeroVideoMobile';
 
 const hideAnimation = {
   overflowX: 'hidden',
@@ -39,6 +40,7 @@ function App() {
     <div className="App">
       <header className="App-header"> 
       <HeroVideoV2 />
+      <HeroVideoMobile />
       <Marquee />
 
   

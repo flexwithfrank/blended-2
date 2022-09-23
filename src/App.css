@@ -519,3 +519,7 @@ select {
 .move-text{
   position: absolute;
 }
+
+.video-ratio{
+  aspect-ratio: 16/9 !important;
+}

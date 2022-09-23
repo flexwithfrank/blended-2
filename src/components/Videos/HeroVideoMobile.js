@@ -6,8 +6,10 @@ import ButtonMain from '../ButtonLarge';
 
 const stylesOne = {
     width: '100%',
+    height: '100%',
     position: 'relative',
     objectFit: 'cover',
+
 }
 
 const stylesTwo = {
@@ -19,18 +21,18 @@ const stylesTwo = {
     backgroundColor: 'rgba(0, 0, 0, 0.5)'
 }
 
-const HeroVideoV2 = () => {
+const HeroVideoMobile = () => {
 
 
   return (
-    <Container sx={{ display:{ xs: 'none', sm: 'block'}}} maxWidth="xl" disableGutters="true" style={stylesOne}>
+    <Container sx={{ display:{ xs: 'block', sm: 'none'}}} maxWidth="xl" disableGutters="true" style={stylesOne}>
 
       <ReactPlayer
             playing="true"
             loop="true"
             volume="0"
             muted="true"
-            url='https://studio3fit.com/wp-content/uploads/2022/01/s3-ad-2022.mp4'
+            url='https://storage.googleapis.com/msgsndr/M4LpH9VZkgr3fIOnQTtk/media/632e1718632d2699bcae0a55.mp4'
             width="100%"
             height="100%"
             playsinline="true" />
@@ -52,9 +54,10 @@ const HeroVideoV2 = () => {
             <Typography variant='h3' component='h1'
                     lineHeight={{xs: 1}}
                     pb={4}
+                    pl={2}
                     color='white'
                     align='center' 
-                    sx={{ fontSize: {xs: 38, sm: 82}}}>
+                    sx={{ fontSize: { xs: 68 }}}>
                     <span className='frank-bold'>BE HUMAN. BE KIND.</span> 
             </Typography>
 
@@ -65,7 +68,7 @@ const HeroVideoV2 = () => {
             initial={{ opacity: 0, y: 60}}
             transition={{ delay: .15, duration: .50}}>
 
-                <Stack alignItems="flex-start" justifyContent="flex-start" direction="column">
+                <Stack alignItems="flex-start" justifyContent="flex-start" direction="row">
                 <ButtonMain cta="Join the hype" />
                 </Stack>
 
@@ -76,4 +79,4 @@ const HeroVideoV2 = () => {
   );
 };
 
-export default HeroVideoV2;
+export default HeroVideoMobile;
