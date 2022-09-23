@@ -8,9 +8,8 @@ export default function GiantText({ txt, clr, align }) {
             align={align}
             sx={{
               lineHeight:{xs: "92px", sm: "220px"},
-              letterSpacing: -2,
             color: clr,
-            fontSize: {xs: 102, sm: 248}}}>
+            fontSize: {xs: 88, sm: 248}}}>
                 <span className='frank-bold'>{txt}</span>
     </Typography>
     </div>

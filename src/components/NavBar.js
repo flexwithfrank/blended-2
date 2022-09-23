@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 
 const styles = {
-  fontSize: 44
+  fontSize: 38
 }
 
 const NavBar = () => {

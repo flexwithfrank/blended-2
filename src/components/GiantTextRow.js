@@ -29,7 +29,7 @@ const GiantTextRow = ({ align1, align2, dir, src, txt1, txt2}) => {
               lineHeight:{xs: "88px", sm: "220px"},
               letterSpacing: -2,
             color: "white",
-            fontSize: {xs: 102, sm: 248}}}>
+            fontSize: {xs: 88, sm: 248}}}>
                 <span className='frank-bold tester'></span>
         </Typography>
 
